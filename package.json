@@ -1,0 +1,19 @@
+{
+  "name": "mintbeans_cardgame",
+  "version": "1.0.0",
+  "description": "Card game for mintbeans event",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tristanmyers/mintbeans_cardgame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tristanmyers/mintbeans_cardgame/issues"
+  },
+  "homepage": "https://github.com/tristanmyers/mintbeans_cardgame#readme"
+}
