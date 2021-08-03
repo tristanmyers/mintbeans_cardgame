@@ -1,0 +1,139 @@
+body {
+  background: url("https://media.istockphoto.com/photos/seamless-dark-green-felt-background-picture-id1044409406?k=6&m=1044409406&s=612x612&w=0&h=FdFCgmbkcdnc3XjioghmHls63kPElxQDRdHZ14o0pyY=");
+}
+
+hr {
+  border-color: white;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.shadow, .card-deck > .card, .card-deck > .card:before, .card-deck > .card:after {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-deck {
+  position: relative;
+  width: calc(17rem - 10rem);
+  height: calc(22rem - 10rem);
+  margin: 0 0.25rem 3rem;
+  transition: transform 200ms ease-in-out;
+  flex: 0 0 auto;
+}
+.card-deck > .card {
+  background-image: url("https://opengameart.org/sites/default/files/card%20back%20orange.png");
+  background-size: cover;
+}
+.card-deck > .card, .card-deck > .card:before, .card-deck > .card:after {
+  border-radius: 0.5rem;
+  transition: transform 200ms ease-in-out, opacity 200ms ease-in-out;
+  background-position: center;
+}
+.card-deck > .card:before, .card-deck > .card:after {
+  background-image: url("https://media.istockphoto.com/photos/queen-of-clubs-isolated-picture-id186683534?k=6&m=186683534&s=612x612&w=0&h=A0ca-XzDLPQp0M5Hd2LNx_GVufxBBh49Wg_kNkKuD2Q=");
+  background-size: 112%;
+  content: "";
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.card-deck > .card:before {
+  z-index: -1;
+}
+.card-deck > .card:after {
+  z-index: -2;
+}
+.card-deck:hover > .card, .card-deck:hover > .card:before, .card-deck:hover > .card:after {
+  opacity: 1;
+}
+.card-deck.slide-up, .card-deck.slide-up > .card, .card-deck.slide-up > .card:before, .card-deck.slide-up > .card:after {
+  transform-origin: bottom center;
+}
+.card-deck.slide-up:hover {
+  transform: translateY(-20px) scale(1.05);
+}
+.card-deck.slide-up:hover > .card:before {
+  transform: translateY(20px) scale(0.95);
+}
+.card-deck.slide-up:hover > .card:after {
+  transform: translateY(40px) scale(0.85);
+}
+.card-deck.fan-right-center-left, .card-deck.fan-right-center-left > .card, .card-deck.fan-right-center-left > .card:before, .card-deck.fan-right-center-left > .card:after {
+  transform-origin: center left;
+}
+.card-deck.fan-right-center-left:hover {
+  transform: rotate(10deg) scale(1.05);
+}
+.card-deck.fan-right-center-left:hover > .card:before {
+  transform: rotate(-10deg) scale(0.95);
+}
+.card-deck.fan-right-center-left:hover > .card:after {
+  transform: rotate(-20deg) scale(0.85);
+}
+.card-deck.fan-right-center, .card-deck.fan-right-center > .card, .card-deck.fan-right-center > .card:before, .card-deck.fan-right-center > .card:after {
+  transform-origin: center;
+}
+.card-deck.fan-right-center:hover {
+  transform: rotate(10deg) scale(1.05);
+}
+.card-deck.fan-right-center:hover > .card:before {
+  transform: rotate(-10deg) scale(0.95);
+}
+.card-deck.fan-right-center:hover > .card:after {
+  transform: rotate(-20deg) scale(0.85);
+}
+.card-deck.fan-right-bottom-left, .card-deck.fan-right-bottom-left > .card, .card-deck.fan-right-bottom-left > .card:before, .card-deck.fan-right-bottom-left > .card:after {
+  transform-origin: bottom left;
+}
+.card-deck.fan-right-bottom-left:hover {
+  transform: rotate(5deg) scale(1.05);
+}
+.card-deck.fan-right-bottom-left:hover > .card:before {
+  transform: rotate(-5deg) scale(0.95);
+}
+.card-deck.fan-right-bottom-left:hover > .card:after {
+  transform: rotate(-10deg) scale(0.85);
+}
+.card-deck.slide-left, .card-deck.slide-left > .card, .card-deck.slide-left > .card:before, .card-deck.slide-left > .card:after {
+  transform-origin: center right;
+}
+.card-deck.slide-left:hover {
+  transform: translateX(-20px) scale(1.05);
+}
+.card-deck.slide-left:hover > .card:before {
+  transform: translateX(20px) scale(0.95);
+}
+.card-deck.slide-left:hover > .card:after {
+  transform: translateX(40px) scale(0.85);
+}
+.card-deck.slide-right, .card-deck.slide-right > .card, .card-deck.slide-right > .card:before, .card-deck.slide-right > .card:after {
+  transform-origin: center left;
+}
+.card-deck.slide-right:hover {
+  transform: translateX(20px) scale(1.05);
+}
+.card-deck.slide-right:hover > .card:before {
+  transform: translateX(-20px) scale(0.95);
+}
+.card-deck.slide-right:hover > .card:after {
+  transform: translateX(-40px) scale(0.85);
+}
+.card-deck.slide-down, .card-deck.slide-down > .card, .card-deck.slide-down > .card:before, .card-deck.slide-down > .card:after {
+  transform-origin: center top;
+}
+.card-deck.slide-down:hover {
+  transform: translateY(20px) scale(1.05);
+}
+.card-deck.slide-down:hover > .card:before {
+  transform: translateY(-20px) scale(0.95);
+}
+.card-deck.slide-down:hover > .card:after {
+  transform: translateY(-40px) scale(0.85);
+}
+
+/*# sourceMappingURL=deck.css.map */
