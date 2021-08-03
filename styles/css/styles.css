@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  color: white;
+  background: url("https://media.istockphoto.com/photos/seamless-dark-green-felt-background-picture-id1044409406?k=6&m=1044409406&s=612x612&w=0&h=FdFCgmbkcdnc3XjioghmHls63kPElxQDRdHZ14o0pyY=");
+}
+
+#win-container {
+  position: absolute;
+  z-index: 1;
+  width: 20vw;
+  height: 20vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+#game-container {
+    position: relative;
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.player-section {
+  position: relative;
+  padding-left: 10rem;
+}
+
+.draw-card-button {
+    width: 0;
+    height: 0;
+}
+
+.card-deck {
+  width: 15rem;
+  height: 20rem;
+}
+
+#player-name {
+  padding-right: 30px;
+}
+
+#draw-card-button-small-screen {
+  display: none;
+}
+
+#deck-container {
+  width: auto;
+  height: auto;
+}
+/* @media screen and (max-width: 1280px) {
+
+  #deck-container {
+      display:2;
+    }
+}
+
+@media screen and (max-width: 736px) {
+
+  #deck-container  {
+    display: 1;
+    
+  }
+}
+@media screen and (max-width: 460px) {
+  #deck-container {
+    width: 30%;
+    height: 30%;
+  }
+} */
+/* 
+@media screen and (max-width: 360px) {
+  .card-deck {
+    /* width: calc(17rem - 10rem);
+    height: calc(22rem - 10rem); */
+  /* } */
+/* } */
