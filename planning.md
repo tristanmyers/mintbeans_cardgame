@@ -31,3 +31,9 @@
   - card object
     - card images
     - available cards
+
+## Slapjack
+- 
+
+## credits:
+[Hunter Pollpeter for deck css animation](https://codepen.io/hunterpollpeter/pen/wvwgNmL)
