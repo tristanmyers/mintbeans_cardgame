@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tristanmyers/mintbeans_cardgame/issues"
   },
-  "homepage": "https://github.com/tristanmyers/mintbeans_cardgame#readme"
+  "homepage": "https://github.com/tristanmyers/mintbeans_cardgame#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
