@@ -15,9 +15,12 @@ function startGame() {
 		});
 
 	// player decks
+
+	// player controls
 	let player1Draw = document.querySelector('#player1-draw-card');
 	let player2Draw = document.querySelector('#player2-draw-card');
 
+	// mouse controls to draw card
 	player1Draw.addEventListener('click', () => {
 		drawCards(1, "player1");
 	});
@@ -25,6 +28,15 @@ function startGame() {
 	player2Draw.addEventListener('click', () => {
 		drawCards(1, "player2");
 	});
+
+	// keyboard controls to draw card
+	document.addEventListener('keydown', (event) => {
+		if (event.key == "a") {
+			drawCards(1, "player1");
+		} else if (event.key == "k") {
+			drawCards(1, "player2");
+		}
+	})
 
 	// drawing a card from the deck, displaying the image of the card
 	function drawCards(amountOfCards, playerPressed) {
@@ -37,7 +49,7 @@ function startGame() {
 		fetch(url)
 			.then(res => res.json()) // parse response as JSON
 			.then(data => {
-				console.log(data.cards[0])
+				// console.log(data.cards[0])
 
 				// display seperate card based on which player pressed it
 				if (playerPressed == "player1") {
