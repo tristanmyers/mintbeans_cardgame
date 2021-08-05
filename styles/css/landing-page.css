@@ -27,6 +27,12 @@ body {
     width: 60rem;
 }
 
+#controls-container {
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    width: 60rem;
+}
+
 #footer-container {
     position: absolute;
     background-color:rgba(1, 121, 11, 0.8);
