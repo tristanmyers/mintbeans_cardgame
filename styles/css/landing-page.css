@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgba(0, 88, 7, 0.8);
+    color: white;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#header-container {
+    padding: 10px;
+}
+
+#rules-container {
+    text-align: center;
+    margin: 10px 0px 20px 0px;
+    padding-top: 30px;
+    width: 60rem;
+}
+
+#footer-container {
+    position: absolute;
+    background-color:rgba(1, 121, 11, 0.8);
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    bottom: 0px;
+}
+
+#footer-container p {
+    padding-top: 10px;   
+}
+
+a:link, a:visited {
+    color: rgb(142, 204, 255);
+}
